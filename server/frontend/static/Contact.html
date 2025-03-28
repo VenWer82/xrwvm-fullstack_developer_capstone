@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <!-- Link the style sheet here -->
+    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="stylesheet" href="/static/bootstrap.min.css" />
+  </head>
+  <body>
+    <div>
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: darkturquoise; height: 1in"
+      >
+        <div class="container-fluid">
+          <h2 style="padding-right: 5%">Dealerships</h2>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  style="font-size: larger"
+                  aria-current="page"
+                  href="/"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="font-size: larger" href="/about"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  style="font-size: larger"
+                  href="/contact"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main class="container py-5">
+        <section
+          class="contact-details-section d-flex flex-column justify-content-center align-items-center"
+        >
+          <div class="contact-banner w-50"></div>
+          <hr class="my-4 w-80 contact-line" />
+          <div class="row w-100">
+            <div class="col-sm-4 border-end border-grey-700 border-2">
+              <img
+                src="/static/contactus.png"
+                alt="contactus"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-sm-8">
+              <ul class="contact-list list-group">
+                <li class="list-group-item">
+                  <strong>Call Center:</strong>
+                  <span>+1-555-123-4567</span>
+                  <span>(Available 24/7 for general inquiries)</span>
+                </li>
+                <li class="list-group-item">
+                  <strong>Sales Department:</strong>
+                  <a href="tel:+1-555-987-6543">+1-555-987-6543</a>
+                  <span>(For new and pre-owned vehicle sales)</span>
+                </li>
+                <li class="list-group-item">
+                  <strong>Service Center:</strong>
+                  <a href="tel:+1-555-246-8000">+1-555-246-8000</a>
+                  <span>(For service appointments and inquiries)</span>
+                </li>
+
+                <li class="list-group-item">
+                  <strong>Email:</strong>
+                  <a href="mailto:info@bestcarsdealership.com"
+                    >info@bestcarsdealership.com</a
+                  >
+                  <span>(For general inquiries)</span>
+                </li>
+                <li class="list-group-item">
+                  <strong>Dealer Partnerships:</strong>
+                  <a href="tel:+1-555-111-2222">+1-555-111-2222</a>
+                  <span>(For inquiries about becoming a dealer)</span>
+                </li>
+                <li class="list-group-item">
+                  <strong>Office:</strong>
+                  <span>123 Auto Drive, Anytown, USA 12345</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
